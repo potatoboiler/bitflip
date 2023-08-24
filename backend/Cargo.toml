@@ -1,0 +1,5 @@
+[workspace]
+members = [ "local", "aws", "lib" ]
+
+[workspace.dependencies]
+lib = { path = "./lib" }
