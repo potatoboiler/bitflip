@@ -1,5 +1,7 @@
 [workspace]
-members = [ "local", "aws", "lib" ]
+members = [ "local", "aws", "lib", "discord" ]
 
 [workspace.dependencies]
 lib = { path = "./lib" }
+axum = { version = "0.6" }
+tokio = { version = "*" }
