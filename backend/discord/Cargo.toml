@@ -10,3 +10,7 @@ serenity = "0.11"
 
 async-trait = "*"
 tokio = { version = "1", features = ["full"] }
+
+dashmap = "*"
+
+uuid-b64 = "*"
